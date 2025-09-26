@@ -1,0 +1,149 @@
+<!-- Jaden Phan - CPSC 332 - Homework 2 - CSS - 9/25/2025 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaden Phan - CV</title>
+    <link rel="icon" type="image/x-icon" href="../imgs/icon.jpg">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <!-- Header/Navigation Area -->
+    <header class="header-section">
+        <div class="logo-area">
+            <img src="../imgs/icon.jpg" alt="Logo" class="logo-image">
+            <h1>Jaden Phan's CV</h1>
+        </div>
+        <nav>
+            <ul class="navigation-bar">
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#career">Career Summary</a></li>
+                <li><a href="#education">Education & Qualifications</a></li>
+                <li><a href="#hobbies">Interests & Hobbies</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Container with Left and Right Sections -->
+    <div class="main-container">
+        <!-- Left Profile/Introduction Area -->
+        <aside class="profile-section">
+            <section id="introduction">
+                <img src="../imgs/pfp.jpg" alt="Jaden's profile picture" class="profile-image">
+                <h2>Jaden Phan</h2>
+                <h3>Computer Science Student & Software Engineer</h3>
+                <p class="summary-paragraph">
+                    Hello, my name is Jaden! I'm currently a senior at Gonzaga University
+                    studying Computer Science, Data Science, and Applied Mathematics. Outside
+                    of the classroom I enjoy rock climbing, playing golf, hiking, and enjoying
+                    the outdoors.
+                </p>
+            </section>
+        </aside>
+
+        <!-- Right Main Content Area -->
+        <main class="main-content">
+            <!-- Core Skills Section -->
+            <section class="skills-section">
+                <h3>Core Skills</h3>
+                <ul class="skills-list">
+                    <li>Full-Stack Web Development</li>
+                    <li>Python Programming</li>
+                    <li>React Applications</li>
+                    <li>Data Pipeline Development</li>
+                    <li>System Architecture</li>
+                    <li>Database Management</li>
+                </ul>
+            </section>
+
+            <!-- Career Summary Section -->
+            <section id="career" class="career-section">
+                <h2>Career Summary</h2>
+                <table class="career-table">
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Position</th>
+                            <th>Company</th>
+                            <th>Location</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-row-even">
+                            <td>May 2025 - August 2025</td>
+                            <td>Engineering Intern: Fitting Science</td>
+                            <td>PING Golf</td>
+                            <td>Phoenix, Arizona</td>
+                            <td>
+                                <p>● Designed and deployed a full-stack, multi-page React application used in PGA/LPGA
+                                    Tour custom club fittings and internal testing, reducing decision-making time by
+                                    over 80 hours a year.</p>
+                                <p>● Built a custom Python data pipeline to detect, parse, and broadcast putting data,
+                                    streamlining ingestion across internal systems.</p>
+                            </td>
+                        </tr>
+                        <tr class="table-row-odd">
+                            <td>August 2024 - May 2025</td>
+                            <td>Senior Design Intern</td>
+                            <td>Pangeon LLC</td>
+                            <td>Spokane, Washington</td>
+                            <td>
+                                <p>● Spearheaded the system architecture for an innovative NLP tool that converts
+                                    continuous representations into discrete objects, enabling Type 2 AI with true
+                                    reasoning and logic.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Education and Qualifications Section -->
+            <section id="education" class="education-section">
+                <h2>Education & Qualifications</h2>
+                <table class="education-table">
+                    <caption>Education</caption>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Degree</th>
+                            <th>Institution</th>
+                            <th>Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-row-even">
+                            <td>2023 - 2025</td>
+                            <td>Bachelor of Science in Computer Science</td>
+                            <td>Gonzaga University</td>
+                            <td>Spokane, WA</td>
+                        </tr>
+                        <tr class="table-row-odd">
+                            <td>2021-2023</td>
+                            <td>Associates of Science in Computer Science</td>
+                            <td>Diablo Valley College</td>
+                            <td>Pleasant Hill, CA</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Interests and Hobbies Section -->
+            <section id="hobbies" class="hobbies-section">
+                <h2>Interests & Hobbies</h2>
+                <ol class="hobbies-list">
+                    <li><a href="../imgs/climbing.webp" target="_blank" class="hobby-link">Rock Climbing</a></li>
+                    <li>Hiking</li>
+                    <li>Golf</li>
+                    <li>Cooking</li>
+                </ol>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
